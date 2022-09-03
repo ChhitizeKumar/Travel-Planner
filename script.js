@@ -1,7 +1,8 @@
 onload = function () {
     //creating a network
     let curr_data,V,src,dst;
-
+    
+    // getting containers 
     const container = document.getElementById('mynetwork');    //Reference to area where graph will be displayed
     const container2 = document.getElementById('mynetwork2');
     const genNew = document.getElementById('generate-graph');
